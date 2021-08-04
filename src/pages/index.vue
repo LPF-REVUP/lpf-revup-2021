@@ -89,10 +89,10 @@
               li.line-session.mb-1 LINE社によるセッション
         v-col(cols="12" lg="4" md="6")
           v-img(src="/timetable__map.svg")
-        div
-          timetable(
-            :sessions="sessions"
-          )
+       // div
+       //   timetable(
+       //     :sessions="sessions"
+       //   )
       //- Sponsors
       v-row.section-header(id="sponsors" cols="12")
         div
