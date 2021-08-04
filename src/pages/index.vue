@@ -71,9 +71,9 @@
         div.mb-4
           div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani SPEAKERS
           div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text 登壇者一覧
-          speaker-list(
-            :speakers="speakers"
-          )
+      //-    speaker-list(
+      //-      :speakers="speakers"
+      //-    )
       //- Time table
       v-row.section-header(id="timetable" cols="12")
         v-col(cols="12" lg="8" md="6")
@@ -89,10 +89,10 @@
               li.line-session.mb-1 LINE社によるセッション
         v-col(cols="12" lg="4" md="6")
           v-img(src="/timetable__map.svg")
-      //- div
-      //-   timetable(
-      //-     :sessions="sessions"
-      //-   )
+      //-    div
+      //-      timetable(
+      //-        :sessions="sessions"
+      //-      )
       //- Sponsors
       v-row.section-header(id="sponsors" cols="12")
         div
