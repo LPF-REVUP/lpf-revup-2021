@@ -137,7 +137,6 @@ export default class extends mixins(LiffMixin) {
     { title: 'ABOUT', icon: 'mdi-information', to: '/#about' },
     { title: 'SPEAKERS', icon: 'mdi-account-group', to: '/#speakers' },
     { title: 'TIME TABLE', icon: 'mdi-table-clock', to: '/#timetable' },
-    { title: 'ACCESS MAP', icon: 'mdi-map-legend', to: '/#accessmap' },
     { title: 'SPONSORS', icon: 'mdi-handshake', to: '/#sponsors' }
   ]
 
