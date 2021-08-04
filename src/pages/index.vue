@@ -19,16 +19,14 @@
               span.week [SAT]
             .place
               | @ ONLINE
-    //- お知らせ用エリア
-    //- .pa-2.notification
-    //-   v-container.py-0
-    //-     v-layout(justify-center)
-    //-       div
-    //-         a(href="https://book.mynavi.jp/ec/products/detail/id=117310" target="_blank") LINE API 実践ガイド
-    //-         | が50名様に当たる
-    //-         a(href="https://twitter.com/linedc_jp/status/1323918060839866369" target="_blank") Twitterキャンペーン
-    //-         | 実施中です！
-    //- Index contents start
+    .pa-2.notification
+      v-container.py-0
+        v-layout(justify-center)
+          div
+            a(href="https://book.mynavi.jp/ec/products/detail/id=117310" target="_blank") LINE API 実践ガイド
+            | が50名様に当たる
+            a(href="https://twitter.com/linedc_jp/status/1323918060839866369" target="_blank") Twitterキャンペーン
+            | 実施中です！
     .introduction.font-biryani(id="introduction")
       v-container
         v-row(cols="12")
