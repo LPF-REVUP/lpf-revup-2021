@@ -93,35 +93,6 @@
           timetable(
             :sessions="sessions"
           )
-      //- AccessMap
-      .section-header(id="accessmap")
-        div
-          div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani ACCESS MAP
-          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text アクセスマップ
-        v-row(cols="12").map-unit
-          v-col(cols="12" md="4")
-            h3.text-h6.font-weight-bold.mb-3
-              v-icon.ma-2(color="#3cb371") mdi-map-marker
-              | 東京会場
-            img.map-photo(
-              src="@/assets/map-tokyo.png"
-            )
-          v-col(cols="12" md="4")
-            h3.text-h6.font-weight-bold.mb-3
-              v-icon.ma-2(color="#3cb371") mdi-map-marker
-              | 大阪会場
-            img.map-photo(
-              src="@/assets/map-osaka.png"
-            )
-          v-col(cols="12" md="4")
-            h3.text-h6.font-weight-bold.mb-3
-              v-icon.ma-2(color="#3cb371") mdi-map-marker
-              | 福岡会場
-            img.map-photo(
-              src="@/assets/map-fukuoka.png"
-            )
-        p
-          b ※ オンラインに変更
       //- Sponsors
       v-row.section-header(id="sponsors" cols="12")
         div
