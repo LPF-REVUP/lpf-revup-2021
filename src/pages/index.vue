@@ -38,7 +38,7 @@
         v-row(cols="12")
           v-col.mx-auto(cols="12" md="6")
             p.body-2
-              | LINE Developers Community REV UP 2021は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。
+              | LINE Developers Community REV UP 2021（以下、「REV UP」） はLINEのコミュニティが主催する国内最大のLINE関連カンファレンスです。各分野のエキスパートがLINE関連の技術や事例、知見について惜しみなく発信する様々なセッションが今年も数多く行われます。
             p.body-2
               | LINEの認定するLINE API Expertやテクノロジーパートナーを中心に、ミニアプリ、Messaging API、LINE Pay APIなど技術に関するセッションからwithコロナ時代に生まれている新しい体験やビジネスについてのセッションまで、幅広い内容のセッションをご用意しています。
               br
