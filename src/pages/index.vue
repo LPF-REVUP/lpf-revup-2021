@@ -34,7 +34,7 @@
             h2.mb-8.text-md-h3.text-sm-h4.introduction-title.font-biryani
               | LINE Developers Community REV UP 2021
             h3.text-center.color-green
-              | 開発者と共に。ユーザーを支えるLINEプラットフォーム
+              | Get Connected with LINE
         v-row(cols="12")
           v-col.mx-auto(cols="12" md="6")
             p.body-2
