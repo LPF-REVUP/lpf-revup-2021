@@ -23,7 +23,10 @@
       v-container.py-0
         v-layout(justify-center)
           div
-            セッション応募開始！こちらの申込フォームからご応募お待ちしております！
+            a(href="https://book.mynavi.jp/ec/products/detail/id=117310" target="_blank") セッション応募開始！
+            | こちらの申込フォームから
+            a(href="https://twitter.com/linedc_jp/status/1323918060839866369" target="_blank") ご応募
+            | お待ちしております！
     .introduction.font-biryani(id="introduction")
       v-container
         v-row(cols="12")
