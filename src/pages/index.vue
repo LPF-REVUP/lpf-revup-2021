@@ -14,8 +14,8 @@
                 srcset="@/assets/hero__line@2x.png 2x"
               )
             .date
-              span.year 2020.
-              span.day 11.14
+              span.year 2021.
+              span.day 10.02
               span.week [SAT]
             .place
               | @ ONLINE
@@ -32,13 +32,13 @@
         v-row(cols="12")
           v-col.py-15.mb-4(col="12")
             h2.mb-8.text-md-h3.text-sm-h4.introduction-title.font-biryani
-              | LINE Developers Community REV UP 2020
+              | LINE Developers Community REV UP 2021
             h3.text-center.color-green
               | 開発者と共に。ユーザーを支えるLINEプラットフォーム
         v-row(cols="12")
           v-col.mx-auto(cols="12" md="6")
             p.body-2
-              | LINE Developers Community REV UP 2020は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。
+              | LINE Developers Community REV UP 2021は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。
             p.body-2
               | LINEの認定するLINE API Expertやテクノロジーパートナーを中心に、ミニアプリ、Messaging API、LINE Pay APIなど技術に関するセッションからwithコロナ時代に生まれている新しい体験やビジネスについてのセッションまで、幅広い内容のセッションをご用意しています。
               br
@@ -48,14 +48,14 @@
       .section-header(id="about")
         div.mb-4()
           div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani ABOUT
-          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text LFP REV UP 2020 について
+          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text LFP REV UP 2021 について
         v-row.mb-6(cols="12")
           v-col.mx-auto.body-2(cols="12" md="8")
             v-row.py-2.about-list(cols="12")
               v-col.font-weight-bold(cols="12" md="3")
                 | 開催日
               v-col(cols="12" md="9")
-                | 11月14日(土)
+                | 10月02日(土)
             v-row.py-2.about-list(cols="12")
               v-col.font-weight-bold(cols="12" md="3")
                 | 場所
@@ -147,7 +147,7 @@ export default class Index extends mixins(
   }
 
   get shareText(): string {
-    return 'LINE Developers Community REV UP 2020は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。'
+    return 'LINE Developers Community REV UP 2021は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。'
   }
 
   async asyncData(context: Context) {
