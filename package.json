@@ -1,7 +1,7 @@
 {
-  "name": "lpf-revup-2020",
+  "name": "lpf-revup-2021",
   "version": "1.0.0",
-  "description": "LPF REV UP 2020 event site",
+  "description": "LINE Developers Community REV UP 2021 event site",
   "author": "sumihiro3",
   "private": true,
   "scripts": {
