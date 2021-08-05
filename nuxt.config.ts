@@ -5,7 +5,7 @@ import colors from 'vuetify/es5/util/colors'
 import axios from 'axios'
 require('dotenv').config()
 
-const siteTitle = 'LINE Developers Community REV UP 2020'
+const siteTitle = 'LINE Developers Community REV UP 2021'
 const twitterId: string = '@linedc_jp'
 
 const scripts = [{ src: 'https://static.line-scdn.net/liff/edge/2.1/sdk.js' }]
