@@ -31,7 +31,7 @@
       ) {{ item.title }}
       //- TODO Change repository URL
       v-btn.ml-2(
-        href="https://github.com/LPF-REVUP/lpf-revup-2020"
+        href="https://github.com/LPF-REVUP/lpf-revup-2021"
         target="_blank"
         icon
         aria-label="Repository"
@@ -132,7 +132,7 @@ import { AppMenuItem } from '~/types'
 
 @Component({})
 export default class extends mixins(LiffMixin) {
-  title: string = 'LPF REV UP 2020'
+  title: string = 'LINE Developers Community REV UP 2021'
   menuItems: Array<AppMenuItem> = [
     { title: 'ABOUT', icon: 'mdi-information', to: '/#about' },
     { title: 'SPEAKERS', icon: 'mdi-account-group', to: '/#speakers' },
