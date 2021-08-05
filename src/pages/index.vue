@@ -76,17 +76,17 @@
       //-    )
       //- Time table
       v-row.section-header(id="timetable" cols="12")
-        v-col(cols="12" lg="8" md="6")
+      //-  v-col(cols="12" lg="8" md="6")
           div.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani TIME TABLE
           div.text-subtitle-2.text-md-subtitle-2.section-header-text タイムテーブル
-          p.mt-8
-            | セッションは東京、関西、九州の3トラック同時開催で行われます。
-            br
-            | セッションへの参加登録はConnpassを利用しますので、視聴されたいセッションへの参加登録をお願いいたします。開始時刻前に配信URLをメールにてお知らせいたします。同時刻、複数セッションへの申込みも可能ですので、少しでも興味のあるセッションには参加登録をしておくことをおすすめいたします。
-            ul.session-list.mt-4
-              li.case-study.mb-1 事例/APIセッション
-              li.tech-session.mb-1 テクニカルセッション
-              li.line-session.mb-1 LINE社によるセッション
+      //-    p.mt-8
+      //-      | セッションは東京、関西、九州の3トラック同時開催で行われます。
+      //-      br
+      //-      | セッションへの参加登録はConnpassを利用しますので、視聴されたいセッションへの参加登録をお願いいたします。開始時刻前に配信URLをメールにてお知らせいたします。同時刻、複数セッションへの申込みも可能ですので、少しでも興味のあるセッションには参加登録をしておくことをおすすめいたします。
+      //-      ul.session-list.mt-4
+      //-        li.case-study.mb-1 事例/APIセッション
+      //-        li.tech-session.mb-1 テクニカルセッション
+      //-        li.line-session.mb-1 LINE社によるセッション
       //-  v-col(cols="12" lg="4" md="6")
       //-    v-img(src="/timetable__map.svg")
       //-    div
