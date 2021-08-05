@@ -32,13 +32,13 @@
         v-row(cols="12")
           v-col.py-15.mb-4(col="12")
             h2.mb-8.text-md-h3.text-sm-h4.introduction-title.font-biryani
-              | LPF REV UP 2020
+              | LINE Developers Community REV UP 2020
             h3.text-center.color-green
               | 開発者と共に。ユーザーを支えるLINEプラットフォーム
         v-row(cols="12")
           v-col.mx-auto(cols="12" md="6")
             p.body-2
-              | LPF REV UP 2020は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。
+              | LINE Developers Community REV UP 2020は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。
             p.body-2
               | LINEの認定するLINE API Expertやテクノロジーパートナーを中心に、ミニアプリ、Messaging API、LINE Pay APIなど技術に関するセッションからwithコロナ時代に生まれている新しい体験やビジネスについてのセッションまで、幅広い内容のセッションをご用意しています。
               br
@@ -147,7 +147,7 @@ export default class Index extends mixins(
   }
 
   get shareText(): string {
-    return 'LPF REV UP 2020は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。'
+    return 'LINE Developers Community REV UP 2020は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。'
   }
 
   async asyncData(context: Context) {
@@ -191,7 +191,7 @@ export default class Index extends mixins(
     consola.log('showShareTargetPicker called')
     // メッセージ文言
     const message =
-      'LPF REV UP 2020は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。'
+      'LINE Developers Community REV UP 2020は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。'
     const shareMessage: FlexMessage = generateShareMessage(
       message,
       this.getPermanentLink()
