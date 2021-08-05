@@ -5,7 +5,7 @@ import colors from 'vuetify/es5/util/colors'
 import axios from 'axios'
 require('dotenv').config()
 
-const siteTitle = 'LPF REV UP 2020'
+const siteTitle = 'LINE Developers Community REV UP 2020'
 const twitterId: string = '@linedc_jp'
 
 const scripts = [{ src: 'https://static.line-scdn.net/liff/edge/2.1/sdk.js' }]
@@ -58,7 +58,7 @@ const nuxtConfig: Configuration = {
       short_name: siteTitle,
       title: siteTitle,
       description:
-        'LPF REV UP 2020は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。',
+        'LINE Developers Community REV UP 2021（以下、「REV UP」） はLINEのコミュニティが主催する国内最大のLINE関連カンファレンスです。各分野のエキスパートがLINE関連の技術や事例、知見について惜しみなく発信する様々なセッションが今年も数多く行われます。2021年のテーマは「Get Connected with LINE／LINEを介して実現される様々な繋がりや連携」。',
       theme_color: '#ffffff',
       background_color: '#ffffff'
     }
