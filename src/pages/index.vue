@@ -87,8 +87,8 @@
               li.case-study.mb-1 事例/APIセッション
               li.tech-session.mb-1 テクニカルセッション
               li.line-session.mb-1 LINE社によるセッション
-        v-col(cols="12" lg="4" md="6")
-          v-img(src="/timetable__map.svg")
+      //-  v-col(cols="12" lg="4" md="6")
+      //-    v-img(src="/timetable__map.svg")
       //-    div
       //-      timetable(
       //-        :sessions="sessions"
