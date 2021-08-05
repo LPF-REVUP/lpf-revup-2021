@@ -48,7 +48,7 @@
       .section-header(id="about")
         div.mb-4()
           div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani ABOUT
-          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text REV UP 2021 について
+          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text LINE REV UP 2021 について
         v-row.mb-6(cols="12")
           v-col.mx-auto.body-2(cols="12" md="8")
             v-row.py-2.about-list(cols="12")
