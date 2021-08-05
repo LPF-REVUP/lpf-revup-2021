@@ -1,1 +1,1 @@
-# LPF REV UP 2020
+# LINE Developers Community REV UP 2021
