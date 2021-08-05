@@ -171,7 +171,7 @@ const nuxtConfig: Configuration = {
     customVariables: ['~/assets/variables.scss'],
     treeShake: true,
     theme: {
-      dark: false,
+      dark: true,
       themes: {
         light: {
           primary: '#00B900',
