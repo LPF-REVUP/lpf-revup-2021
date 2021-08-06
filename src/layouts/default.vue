@@ -20,7 +20,7 @@
     v-app-bar(fixed app color="dark" elevate-on-scroll)
       v-toolbar-title.d-block.black--text
         nuxt-link(to="/" :aria-label="title")
-          img(src="@/assets/h__logo.svg")
+          img(src="@/assets/h__logo.svg" width="120")
       v-spacer
       v-btn.white--text.hidden-sm-and-down.font-biryani(
         v-for="item in menuItems"
