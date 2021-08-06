@@ -233,7 +233,6 @@ export default class Index extends mixins(
 .introduction
   position relative
   font-family: 'Biryani', sans-serif !important;
-  background-color: #F0FBF5
 .introduction-title.font-biryani
   text-align center
   font-family 'Biryani', sans-serif !important
