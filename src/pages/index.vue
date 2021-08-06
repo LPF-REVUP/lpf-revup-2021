@@ -23,7 +23,7 @@
       v-container.py-0
         v-layout(justify-center)
           div
-            a(href="https://book.mynavi.jp/ec/products/detail/id=117310" target="_blank") REV UP 2021 セッション公募開始！
+            a(href="https://forms.gle/3vhEeHxTTm2KztdM7" target="_blank") REV UP 2021 セッション公募開始！
             | が50名様に当たる
             a(href="https://twitter.com/linedc_jp/status/1323918060839866369" target="_blank") Twitterキャンペーン
             | 実施中です！
