@@ -109,7 +109,6 @@
               | 閉じる
       nuxt
     v-footer(
-      dark
       padless
     )
       v-card.flex(flat tile)
