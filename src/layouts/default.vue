@@ -109,6 +109,7 @@
               | 閉じる
       nuxt
     v-footer(
+      white
       padless
     )
       v-card.flex(flat tile)
@@ -118,7 +119,7 @@
             to="/privacy"
           )
             | 個人情報保護方針
-        v-card-text.copylight.text-center.white--text &copy; {{title}}
+        v-card-text.copylight.text-center.dark--text &copy; {{title}}
 </template>
 
 <script lang="ts">
