@@ -29,7 +29,9 @@
         v-row(cols="12")
           v-col.py-15.mb-4(col="12")
             h2.mb-8.text-md-h3.text-sm-h4.introduction-title.font-biryani
-              | LINE Developers Community REV UP 2021
+              | LINE Developers Community
+           h2.mb-8.text-md-h3.text-sm-h4.introduction-title.font-biryani
+              | REV UP 2021
             h3.text-center.color-green
               | Get Connected with LINE／LINEを介して実現される様々な繋がりや連携
         v-row(cols="12")
