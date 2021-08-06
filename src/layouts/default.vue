@@ -18,11 +18,11 @@
             v-list-item-content.font-biryani
               | {{ item.title }}
     v-app-bar(fixed app color="dark" elevate-on-scroll)
-      v-toolbar-title.d-block.white--text
+      v-toolbar-title.d-block.black--text
         nuxt-link(to="/" :aria-label="title")
           img(src="@/assets/h__logo.svg")
       v-spacer
-      v-btn.black--text.hidden-sm-and-down.font-biryani(
+      v-btn.white--text.hidden-sm-and-down.font-biryani(
         v-for="item in menuItems"
         :key="item.title"
         text small
