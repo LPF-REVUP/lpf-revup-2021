@@ -17,7 +17,7 @@
               v-icon.c-green {{ item.icon }}
             v-list-item-content.font-biryani
               | {{ item.title }}
-    v-app-bar(fixed app color="white" elevate-on-scroll)
+    v-app-bar(fixed app color="dark" elevate-on-scroll)
       v-toolbar-title.d-block.black--text
         nuxt-link(to="/" :aria-label="title")
           img(src="@/assets/h__logo.svg")
