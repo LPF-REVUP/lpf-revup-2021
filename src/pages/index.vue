@@ -79,7 +79,7 @@
         div.mb-4
           div.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani TIME TABLE
           div.text-subtitle-2.text-md-subtitle-2.section-header-text タイムテーブル
-          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text coming soon...
+          div.text-subtitle-2.text-md-subtitle-2.section-header-text coming soon...
       //-  v-col(cols="12" lg="8" md="6")
       //-    div.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani TIME TABLE
       //-    div.text-subtitle-2.text-md-subtitle-2.section-header-text タイムテーブル
