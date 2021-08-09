@@ -70,6 +70,7 @@
         div.mb-4
           div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani SPEAKERS
           div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text 登壇者一覧
+          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text comming soon
       //-    speaker-list(
       //-      :speakers="speakers"
       //-    )
@@ -100,6 +101,7 @@
           sponsor-List(
             :sponsors="sponsors"
           )
+          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text and more
     //- SHARE
     share-box(
       :shareUrl="url"
