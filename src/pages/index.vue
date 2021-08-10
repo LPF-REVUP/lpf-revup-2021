@@ -65,6 +65,13 @@
                 | 参加費
               v-col(cols="12" md="9")
                 | 無料
+        v-row(cols="12")
+          v-col.mx-auto(cols="12" md="6")
+            p.body-2
+              | お気軽にご参加ください。
+              br
+              | 下記は昨年開催されたREV UP2020年の模様です。（画像をクリックでREV UP 2020 公式サイトに飛びます）
+              br
         a(href="https://revup.jp" target="_blank")
           v-img(src="/revup2020.png")
       //- Speakers
