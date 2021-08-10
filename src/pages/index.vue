@@ -68,7 +68,7 @@
             p.body-2
               | 視聴はオンラインです。是非お気軽にご参加下さい。
               br
-              a(href="https://revup.jp" target="_blank") REVup 2020はこちら
+              a(href="https://revup.jp" target="_blank") REVUP 2020はこちら
       //- Speakers
       //-v-row.section-header(id="speakers" cols="12")
       //-  div.mb-4
