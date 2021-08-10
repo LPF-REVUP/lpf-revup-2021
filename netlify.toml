@@ -1,7 +1,7 @@
 [build]
   functions = "functions/dist"
   
-[[redirects]]]
+[[redirects]]
   from = "/2021"
   to = "https://revup2021.netlify.app/"
   status = 200
