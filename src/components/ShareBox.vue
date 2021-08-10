@@ -16,14 +16,6 @@
           .mr-6
             a.text-decoration-none(:href="hatenaShareUrl" rel="nofollow" target="_blank")
               v-icon(x-large).icon-hatenabookmark icon-hatenabookmark
-          //- Share Target Picker
-          .mr-6
-            v-btn.text-decoration-none(
-              fab depressed
-              @click="showShareTargetPicker()"
-              small
-            )
-              v-icon(large).icon-line icon-line
 </template>
 
 <script lang="ts">
@@ -50,17 +42,6 @@ export default class ShareBoxComponent extends mixins(LiffMixin) {
 
   get hatenaShareUrl() {
     return `http://b.hatena.ne.jp/add?mode=confirm&url=${this.shareUrl}&title=${this.shareText}`
-  }
-
-  async showShareTargetPicker() {
-    consola.log('showShareTargetPicker called')
-    // メッセージ文言
-    const message = this.shareText
-    const shareMessage: FlexMessage = generateShareMessage(
-      message,
-      this.getPermanentLink()
-    )
-    await this.openShareTargetPicker(shareMessage)
   }
 }
 </script>
