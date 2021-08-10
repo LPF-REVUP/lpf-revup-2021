@@ -66,20 +66,20 @@
               v-col(cols="12" md="9")
                 | 無料
       //- Speakers
-      v-row.section-header(id="speakers" cols="12")
-        div.mb-4
-          div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani SPEAKERS
-          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text 登壇者一覧
-          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text coming soon...
+      //-v-row.section-header(id="speakers" cols="12")
+      //-  div.mb-4
+      //-    div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani SPEAKERS
+      //-    div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text 登壇者一覧
+      //-    div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text coming soon...
       //-    speaker-list(
       //-      :speakers="speakers"
       //-    )
       //- Time table
-      v-row.section-header(id="timetable" cols="12")
-        div.mb-4
-          div.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani TIME TABLE
-          div.text-subtitle-2.text-md-subtitle-2.section-header-text タイムテーブル
-          div.text-subtitle-2.text-md-subtitle-2.section-header-text coming soon...
+      //-v-row.section-header(id="timetable" cols="12")
+      //-  div.mb-4
+      //-    div.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani TIME TABLE
+      //-    div.text-subtitle-2.text-md-subtitle-2.section-header-text タイムテーブル
+      //-    div.text-subtitle-2.text-md-subtitle-2.section-header-text coming soon...
       //-  v-col(cols="12" lg="8" md="6")
       //-    div.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani TIME TABLE
       //-    div.text-subtitle-2.text-md-subtitle-2.section-header-text タイムテーブル
