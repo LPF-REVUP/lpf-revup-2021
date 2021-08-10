@@ -40,8 +40,6 @@
               | LINE Developers Community REV UP 2021（以下、「REV UP」） はLINEのコミュニティが主催する国内最大のLINE関連カンファレンスです。各分野のエキスパートがLINE関連の技術や事例、知見について惜しみなく発信する様々なセッションが今年も数多く行われます。
             p.body-2
               | また、今年のテーマは「Get Connected with LINE」です。ぜひ、本カンファレンスを介して様々な繋がり出会いを実現していただければ幸いです。
-              br
-              | 視聴はオンラインです。是非お気軽にご参加下さい。
     v-container
       //- About
       .section-header(id="about")
@@ -68,9 +66,11 @@
         v-row(cols="12")
           v-col.mx-auto(cols="12" md="6")
             p.body-2
-              | お気軽にご参加ください。
+              | 視聴はオンラインです。是非お気軽にご参加下さい。
+            p.body-2
+              | 下記は昨年開催されたREV UP2020年の模様です。
               br
-              | 下記は昨年開催されたREV UP2020年の模様です。（画像をクリックでREV UP 2020 公式サイトに飛びます）
+              | （画像をクリックでREV UP 2020 公式サイトに飛びます）
               br
         a(href="https://revup.jp" target="_blank")
           v-img(src="/revup2020.png")
