@@ -67,13 +67,8 @@
           v-col.mx-auto(cols="12" md="6")
             p.body-2
               | 視聴はオンラインです。是非お気軽にご参加下さい。
-            p.body-2
-              | 下記は昨年開催されたREV UP2020年の模様です。
               br
-              | （画像をクリックでREV UP 2020 公式サイトに飛びます）
-              br
-        a(href="https://revup.jp" target="_blank")
-          v-img(src="/revup2020.png")
+              a(href="https://revup.jp" target="_blank") REVup 2020はこちら
       //- Speakers
       //-v-row.section-header(id="speakers" cols="12")
       //-  div.mb-4
