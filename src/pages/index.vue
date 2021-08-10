@@ -69,7 +69,7 @@
               | 視聴はオンラインです。是非お気軽にご参加下さい。
               br
               a(href="https://revup.jp" target="_blank") REVUP 2020 公式サイトはこちら
-        v-col.mx-auto.text-center(cols="10" lg="6")
+        v-col.mx-auto.text-center(cols="12" lg="3" md="4")
           a(href="https://note.com/linedc/n/nb4131c648cd7" target="_blank")
             v-img(src="/revup2020.png")
       //- Speakers
