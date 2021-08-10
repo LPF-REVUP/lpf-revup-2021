@@ -1,6 +1,12 @@
 [build]
   functions = "functions/dist"
-  
+
+[[redirects]]
+  from = "/static/*"
+  to = "https://revup2021.netlify.app/static/:splat"
+  status = 200
+  force = true
+
 [[redirects]]
   from = "/2021"
   to = "https://revup2021.netlify.app/"
