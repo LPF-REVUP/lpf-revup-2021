@@ -134,8 +134,7 @@ import { AppMenuItem } from '~/types'
 export default class extends mixins(LiffMixin) {
   title: string = 'LINE Developers Community REV UP 2021'
   menuItems: Array<AppMenuItem> = [
-    { title: 'ABOUT', icon: 'mdi-information', to: '/#about' },
-    { title: 'SPONSORS', icon: 'mdi-handshake', to: '/#sponsors' }
+    { title: 'ABOUT', icon: 'mdi-information', to: '/#about' }
   ]
 
   drawer: boolean = false
