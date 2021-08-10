@@ -65,7 +65,7 @@
                 | 参加費
               v-col(cols="12" md="9")
                 | 無料
-        v-col(cols="12" lg="4" md="6")
+        a(href="https://revup.jp" target="_blank")
           v-img(src="/revup2020.png")
       //- Speakers
       //-v-row.section-header(id="speakers" cols="12")
