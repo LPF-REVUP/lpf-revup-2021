@@ -2,7 +2,7 @@
   functions = "functions/dist"
   
 [[redirects]]]
-from = "/2021"
-to = "https://revup2021.netlify.app/"
-status = 200
-force = true
+  from = "/2021"
+  to = "https://revup2021.netlify.app/"
+  status = 200
+  force = true
