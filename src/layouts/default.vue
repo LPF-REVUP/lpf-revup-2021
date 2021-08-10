@@ -18,7 +18,7 @@
             v-list-item-content.font-biryani
               | {{ item.title }}
     v-app-bar(fixed app color="dark" elevate-on-scroll)
-      v-toolbar-title.d-block.black--text
+      v-toolbar-title.d-block.mt-5.black--text
         nuxt-link(to="/" :aria-label="title")
           img(src="@/assets/h__logo.svg" width="120")
       v-spacer
