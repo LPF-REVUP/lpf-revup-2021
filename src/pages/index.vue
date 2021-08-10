@@ -224,7 +224,7 @@ export default class Index extends mixins(
   .place
     font-size 24px
 .notification
-  background-color #F0F0F0
+  background-color #333333
 .section-header
   margin-top: -70px
   padding-top: 80px
