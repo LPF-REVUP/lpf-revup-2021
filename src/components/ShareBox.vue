@@ -20,10 +20,7 @@
 
 <script lang="ts">
 import { Component, Prop, mixins } from 'nuxt-property-decorator'
-import consola from 'consola'
-import { FlexMessage } from '@line/bot-sdk'
 import LiffMixin from '~/mixins/LiffMixin'
-import { generateShareMessage } from '~/utils/messages/shareMessage'
 import '@/assets/icomoon/style.css'
 
 @Component
