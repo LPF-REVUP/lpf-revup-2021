@@ -23,7 +23,7 @@
       v-container.py-0
         v-layout(justify-center)
           div
-            a(href="https://forms.gle/3vhEeHxTTm2KztdM7" target="_blank") REV UP 2021 セッション公募開始！
+            | 2021.8.12 ディザーサイト公開しました。
     .introduction.font-biryani(id="introduction")
       v-container
         v-row(cols="12")
