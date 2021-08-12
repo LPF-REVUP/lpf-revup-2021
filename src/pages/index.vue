@@ -72,6 +72,10 @@
         v-col.mx-auto.text-center(cols="12" lg="3" md="4")
           a(href="https://note.com/linedc/n/nb4131c648cd7" target="_blank")
             v-img(src="/revup2020.png")
+      //- CfP
+      .v-row.section-header(id="cfp" cols="12")
+        div.mb-4
+          div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani セッション公募受付中
       //- Speakers
       //-v-row.section-header(id="speakers" cols="12")
       //-  div.mb-4
