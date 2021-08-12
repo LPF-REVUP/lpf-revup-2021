@@ -19,6 +19,12 @@
               span.week [SAT]
             .place
               | @ ONLINE
+            v-row.mt-2.mb-2
+            iframe.deck_frame.viewer_size(
+              :src="https://www.youtube.com/watch?v=rtK_svx00s0"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            )
     .pa-2.notification
       v-container.py-0
         v-layout(justify-center)
