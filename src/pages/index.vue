@@ -76,6 +76,13 @@
       .v-row.section-header(id="cfp" cols="12")
         div.mb-4
           div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani セッション公募受付中
+        v-row.mb-6(cols="12")
+          v-col.mx-auto.body-2(cols="12" md="8")
+            v-row.py-2.about-list(cols="12")
+              v-col.font-weight-bold(cols="12" md="3")
+                | セッション応募
+              v-col(cols="12" md="9")
+                a(href="https://forms.gle/GE2THuuDeCUAzGCj7" target="_blank") こちらのリンクから応募フォームにアクセスいただけます
       //- Speakers
       //-v-row.section-header(id="speakers" cols="12")
       //-  div.mb-4
