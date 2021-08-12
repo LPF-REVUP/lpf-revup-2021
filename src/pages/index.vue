@@ -23,7 +23,7 @@
       v-container.py-0
         v-layout(justify-center)
           div
-            a(href="https://forms.gle/3vhEeHxTTm2KztdM7" target="_blank") REV UP 2021 セッション公募開始！
+            | 2021.8.12 ディザーサイト公開しました。
     .introduction.font-biryani(id="introduction")
       v-container
         v-row(cols="12")
@@ -68,10 +68,21 @@
             p.body-2
               | 視聴はオンラインです。是非お気軽にご参加下さい。
             p.body-2
-              a(href="https://revup.jp" target="_blank") REVUP 2020 公式サイトはこちら
+              a(href="https://2020.revup.jp" target="_blank") REVUP 2020 公式サイトはこちら
         v-col.mx-auto.text-center(cols="12" lg="3" md="4")
           a(href="https://note.com/linedc/n/nb4131c648cd7" target="_blank")
             v-img(src="/revup2020.png")
+      //- CfP
+      .v-row.section-header(id="cfp" cols="12")
+        div.mb-4
+          div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani セッション公募受付中
+        v-row.mb-6(cols="12")
+          v-col.mx-auto.body-2(cols="12" md="8")
+            v-row.py-2.about-list(cols="12")
+              v-col.font-weight-bold(cols="12" md="3")
+                | セッション応募
+              v-col(cols="12" md="9")
+                a(href="https://forms.gle/GE2THuuDeCUAzGCj7" target="_blank") こちらのリンクから応募フォームにアクセスいただけます
       //- Speakers
       //-v-row.section-header(id="speakers" cols="12")
       //-  div.mb-4
