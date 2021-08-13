@@ -1,11 +1,5 @@
 <template lang="pug">
   .wrap
-    .promotion-moview
-      iframe.deck_frame.viewer_size(
-        src="https://www.youtube.com/embed/rtK_svx00s0?autoplay=1&mute=1"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      )
     .main-picture
       v-container.py-0
         v-row.py-8.white--text
@@ -30,6 +24,12 @@
         v-layout(justify-center)
           div
             | 2021.8.12 ディザーサイト公開しました。
+    .promotion-moview
+      iframe.deck_frame.viewer_size(
+        src="https://www.youtube.com/embed/rtK_svx00s0?autoplay=1&mute=1"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      )
     .introduction.font-biryani(id="introduction")
       v-container
         v-row(cols="12")
