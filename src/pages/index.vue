@@ -26,7 +26,7 @@
             | 2021.8.12 ディザーサイト公開しました。
     .pt-16.promotion-moview
       iframe.deck_frame.viewer_size(
-        src="https://www.youtube.com/embed/rtK_svx00s0?autoplay=1&mute=1"
+        src="https://www.youtube.com/embed/rfYUz_ZUcjc?autoplay=1&mute=1"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       )
