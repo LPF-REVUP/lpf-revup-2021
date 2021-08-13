@@ -24,7 +24,7 @@
         v-layout(justify-center)
           div
             | 2021.8.12 ディザーサイト公開しました。
-    .promotion-moview
+    .pa-3.promotion-moview
       iframe.deck_frame.viewer_size(
         src="https://www.youtube.com/embed/rtK_svx00s0?autoplay=1&mute=1"
         frameborder="0"
