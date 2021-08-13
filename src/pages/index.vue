@@ -32,7 +32,7 @@
             | 2021.8.12 ディザーサイト公開しました。
     .pt-16.promotion-moview
       iframe.deck_frame.viewer_size(
-        src="https://www.youtube.com/embed/rtK_svx00s0?autoplay=1&mute=1"
+        src="https://www.youtube.com/embed/rfYUz_ZUcjc?autoplay=1&mute=1"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       )
@@ -182,7 +182,7 @@ export default class Index extends mixins(
   }
 
   get shareText(): string {
-    return 'LINE Developers Community REV UP 2021は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。'
+    return 'LINE Developers Community REV UP 2021 はLINEのコミュニティが主催する国内最大のLINE関連カンファレンスです。各分野のエキスパートがLINE関連の技術や事例、知見について惜しみなく発信する様々なセッションが今年も数多く行われます。'
   }
 
   async asyncData(context: Context) {
@@ -226,7 +226,7 @@ export default class Index extends mixins(
     consola.log('showShareTargetPicker called')
     // メッセージ文言
     const message =
-      'LINE Developers Community REV UP 2020は普段LINEのAPIに関する勉強会や情報交換を行っている東京、関西、九州のコミュニティが合同で主催するカンファレンスです。2020のテーマは「開発者と共に。ユーザーを支えるLINEプラットフォーム」。'
+      'LINE Developers Community REV UP 2021 はLINEのコミュニティが主催する国内最大のLINE関連カンファレンスです。各分野のエキスパートがLINE関連の技術や事例、知見について惜しみなく発信する様々なセッションが今年も数多く行われます。'
     const shareMessage: FlexMessage = generateShareMessage(
       message,
       this.getPermanentLink()
