@@ -176,7 +176,7 @@ export default class Index extends mixins(
   }
 
   get shareText(): string {
-    return 'LINE Developers Community REV UP 2021（以下、「REV UP」） はLINEのコミュニティが主催する国内最大のLINE関連カンファレンスです。各分野のエキスパートがLINE関連の技術や事例、知見について惜しみなく発信する様々なセッションが今年も数多く行われます。2021年のテーマは「Get Connected with LINE／LINEを介して実現される様々な繋がりや連携」です。'
+    return 'LINE Developers Community REV UP 2021 はLINEのコミュニティが主催する国内最大のLINE関連カンファレンスです。各分野のエキスパートがLINE関連の技術や事例、知見について惜しみなく発信する様々なセッションが今年も数多く行われます。'
   }
 
   async asyncData(context: Context) {
@@ -220,7 +220,7 @@ export default class Index extends mixins(
     consola.log('showShareTargetPicker called')
     // メッセージ文言
     const message =
-      'LINE Developers Community REV UP 2021（以下、「REV UP」） はLINEのコミュニティが主催する国内最大のLINE関連カンファレンスです。各分野のエキスパートがLINE関連の技術や事例、知見について惜しみなく発信する様々なセッションが今年も数多く行われます。2021年のテーマは「Get Connected with LINE／LINEを介して実現される様々な繋がりや連携」です。'
+      'LINE Developers Community REV UP 2021 はLINEのコミュニティが主催する国内最大のLINE関連カンファレンスです。各分野のエキスパートがLINE関連の技術や事例、知見について惜しみなく発信する様々なセッションが今年も数多く行われます。'
     const shareMessage: FlexMessage = generateShareMessage(
       message,
       this.getPermanentLink()

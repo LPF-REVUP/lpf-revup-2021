@@ -17,7 +17,7 @@ export default class HeadMixin extends Vue {
     const description: string = info.description
       ? // HTML タグを除去
         info.description.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '')
-      : 'LINE Developers Community REV UP 2021（以下、「REV UP」） はLINEのコミュニティが主催する国内最大のLINE関連カンファレンスです。各分野のエキスパートがLINE関連の技術や事例、知見について惜しみなく発信する様々なセッションが今年も数多く行われます。'
+      : 'LINE Developers Community REV UP 2021 はLINEのコミュニティが主催する国内最大のLINE関連カンファレンスです。各分野のエキスパートがLINE関連の技術や事例、知見について惜しみなく発信する様々なセッションが今年も数多く行われます。'
 
     const baseUrl: string = process.env.BASE_URL || ''
     const thisUrl: string = `${baseUrl}${this.$route.path}`
