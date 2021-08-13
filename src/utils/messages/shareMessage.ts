@@ -56,7 +56,7 @@ const messageBubble: FlexBubble = {
           {
             type: 'text',
             text:
-              'LINE Developers Community REV UP 2021（以下、「REV UP」） はLINEのコミュニティが主催する国内最大のLINE関連カンファレンスです。各分野のエキスパートがLINE関連の技術や事例、知見について惜しみなく発信する様々なセッションが今年も数多く行われます。2021年のテーマは「Get Connected with LINE／LINEを介して実現される様々な繋がりや連携」。',
+              'LINE Developers Community REV UP 2021（以下、「REV UP」） はLINEのコミュニティが主催する国内最大のLINE関連カンファレンスです。各分野のエキスパートがLINE関連の技術や事例、知見について惜しみなく発信する様々なセッションが今年も数多く行われます。2021年のテーマは「Get Connected with LINE／LINEを介して実現される様々な繋がりや連携」です。',
             size: 'md',
             wrap: true
           }

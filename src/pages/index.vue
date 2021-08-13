@@ -30,6 +30,12 @@
         v-layout(justify-center)
           div
             | 2021.8.12 ディザーサイト公開しました。
+    .pt-16.promotion-moview
+      iframe.deck_frame.viewer_size(
+        src="https://www.youtube.com/embed/rtK_svx00s0?autoplay=1&mute=1"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      )
     .introduction.font-biryani(id="introduction")
       v-container
         v-row(cols="12")
@@ -231,6 +237,19 @@ export default class Index extends mixins(
 </script>
 
 <style lang="stylus">
+.promotion-moview
+  text-align center
+  position relative
+  .deck_frame
+    border: 0px
+    background: padding-box rgba(0, 0, 0, 0.1)
+    margin: 0px
+    padding: 0px
+    border-radius: 6px
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px
+  .viewer_size
+    width: calc(80px + 66vw)
+    height: calc((80px + 66vw) / 1.77777777778)
 .main-picture
   background linear-gradient(247.38deg, #00B900 0%, #00AEB9 100%)
   font-family 'Biryani', sans-serif !important
