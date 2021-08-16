@@ -23,7 +23,7 @@
       v-container.py-0
         v-layout(justify-center)
           div
-            | 2021.08.16 ディザーサイト公開しました。
+            | 2021.08.16 ティザーサイト公開しました。
     .pt-16.promotion-moview
       iframe.deck_frame.viewer_size(
         src="https://www.youtube.com/embed/rfYUz_ZUcjc?autoplay=1&mute=1"
