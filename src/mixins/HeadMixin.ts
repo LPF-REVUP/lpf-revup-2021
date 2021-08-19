@@ -41,7 +41,7 @@ export default class HeadMixin extends Vue {
           content: description
         },
         { property: 'og:url', name: 'og:url', content: thisUrl },
-        { property: 'og:image', content: ogImageUrl },
+        { property: 'og:image', name: 'og:image', content: ogImageUrl },
         { property: 'og:site_name', name: 'og:site_name', content: siteName }
       ]
     }
