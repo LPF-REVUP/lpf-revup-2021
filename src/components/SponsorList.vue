@@ -20,8 +20,8 @@
       v-col.ml-2(
         v-for="s in silverSponsors"
         :key="s.id"
-        cols="6"
-        md="4"
+        cols="8"
+        md="5"
       )
         a.text-decoration-none(:href="s.link" rel="nofollow" target="_blank")
           v-img.pa-lg-4.ma-8(

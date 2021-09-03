@@ -135,7 +135,8 @@ export default class extends mixins(LiffMixin) {
   title: string = 'LINE Developers Community REV UP 2021'
   menuItems: Array<AppMenuItem> = [
     { title: 'ABOUT', icon: 'mdi-information', to: '/#about' },
-    { title: 'セッション公募受付中', icon: 'mdi-information', to: '/#cfp' }
+    { title: 'TIME TABLE', icon: 'mdi-table-clock', to: '/#timetable' },
+    { title: 'SPONSORS', icon: 'mdi-handshake', to: '/#sponsors' }
   ]
 
   drawer: boolean = false
