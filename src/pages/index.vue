@@ -23,15 +23,9 @@
       v-container.py-0
         v-layout(justify-center)
           div
-            | 2021.09.07 プロモーション動画 第二弾公開。
+            | 2021.09.07 セッション申し込み受付開始。
             br
             | 2021.09.07 公式サイトオープン！
-            br
-            | 2021.08.31 セッション公募受付終了。
-            br
-            | 2021.08.17 セッション公募開始。
-            br
-            | 2021.08.17 ティザーサイト公開。
     .pt-16.promotion-moview
       iframe.deck_frame.viewer_size(
         src="https://www.youtube.com/embed/TmVcKYFz6Tc?autoplay=1&mute=1"
@@ -97,14 +91,6 @@
       //-           | セッション応募
       //-         v-col(cols="12" md="9")
       //-           a(href="https://forms.gle/GE2THuuDeCUAzGCj7" target="_blank") こちらのリンクから応募フォームにアクセスいただけます
-      //- Speakers
-      //- v-row.section-header(id="speakers" cols="12")
-      //-   div.mb-4
-      //-     div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani SPEAKERS
-      //-     div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text 登壇者一覧
-      //-     speaker-list(
-      //-       :speakers="speakers"
-      //-     )
       //- Time table
       v-row.section-header(id="timetable" cols="12")
         v-col(cols="12" lg="12" md="12")
@@ -112,14 +98,22 @@
           div.text-subtitle-2.text-md-subtitle-2.section-header-text タイムテーブル
           p.mt-8
             | セッションへの参加登録はConnpassを利用しますので、視聴されたいセッションへの参加登録をお願いいたします。開始時刻前に配信URLをメールにてお知らせいたします。同時刻、複数セッションへの申込みも可能ですので、少しでも興味のあるセッションには参加登録をしておくことをおすすめいたします。
-            ul.session-list.mt-4
-              li.case-study.mb-1 事例/APIセッション
-              li.tech-session.mb-1 テクニカルセッション
-              li.line-session.mb-1 LINE社によるセッション
+            //- ul.session-list.mt-4
+            //-   li.case-study.mb-1 事例/APIセッション
+            //-   li.tech-session.mb-1 テクニカルセッション
+            //-   li.line-session.mb-1 LINE社によるセッション
           div
             timetable(
               :sessions="sessions"
             )
+      //- Speakers
+      v-row.section-header(id="speakers" cols="12")
+        div.mb-4
+          div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani SPEAKERS
+          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text 登壇者一覧
+          speaker-list(
+            :speakers="speakers"
+          )
       //- Sponsors
       v-row.section-header(id="sponsors" cols="12")
         div

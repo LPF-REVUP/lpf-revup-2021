@@ -36,7 +36,7 @@
           v-for="area in areas"
           :key="area.id"
         )
-          v-icon.ma-2(color="#3cb371") mdi-map-marker
+          v-icon.ma-2(color="#3cb371") mdi-arrow-down-bold-circle
           | {{ area.name }}
       v-tabs-items(
         v-model="tab"
