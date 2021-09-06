@@ -35,6 +35,7 @@
               | {{ applicantsMessage }}
           v-row.ma-0.mt-4
             v-btn(
+              v-if="session.applicationPage"
               color="accent"
               link
               :href="session.applicationPage"
