@@ -36,12 +36,12 @@ export default class SpeakerItemComponent extends Vue {
     // See microCMS image API
     // https://microcms.io/docs/image-api/introduction
     // https://docs.imgix.com/apis/url/mask/corner-radius
-    return `${this.speaker.image.url}?mask=corners&w=100&h=100&corner-radius=50,50,50,50`
+    return `${this.speaker.image.url}?mask=corners&w=100&h=100&corner-radius=50,50,50,50&mask-bg=1E1E1E`
   }
 }
 </script>
 
 <style lang="stylus">
 .speaker_text
-  color #666666
+  color #ffffff
 </style>

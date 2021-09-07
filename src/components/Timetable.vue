@@ -10,13 +10,14 @@
           v-for="(hourLabel, index) in hourLabels"
           :key="hourLabel"
           :height="(index !== hourLabels.length - 1) ? heightByHour + 'px' : ''"
+          color="#121212"
         ) {{ hourLabel }}
       v-col(
         v-for="area in areas"
         :key="area.id"
         no-gutters
       )
-        v-icon.ma-2(color="#3cb371") mdi-map-marker
+        v-icon.ma-2(color="#3cb371") mdi-arrow-down-bold-circle
         | {{ area.name }}
         timetable-colomn(
           :areaId="area.id"
@@ -35,7 +36,7 @@
           v-for="area in areas"
           :key="area.id"
         )
-          v-icon.ma-2(color="#3cb371") mdi-map-marker
+          v-icon.ma-2(color="#3cb371") mdi-arrow-down-bold-circle
           | {{ area.name }}
       v-tabs-items(
         v-model="tab"
@@ -74,9 +75,12 @@ export default class TimetableComponent extends Vue {
   tab = this.areas[0]
 
   get heightByHour() {
+    console.log(this.$vuetify.breakpoint.name)
     switch (this.$vuetify.breakpoint.name) {
+      case 'xl':
+      case 'lg':
       case 'md':
-        return 300
+        return 320
       default:
         return 240
     }
@@ -93,7 +97,7 @@ export default class TimetableComponent extends Vue {
   }
 
   get areas() {
-    return ['tokyo', 'osaka', 'fukuoka'].map(
+    return ['tech', 'biz', 'pioneer', 'collabo', 'hands'].map(
       id => this.sessions.filter(s => s.area.id === id)[0].area
     )
   }

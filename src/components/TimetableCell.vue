@@ -10,7 +10,7 @@
       @click="moveToSessionPage()"
       @mousedown.middle="openSessionPage()"
       dark
-      :color="session.color"
+      color="#668C4A"
     )
       v-card-text.pa-2
         span.timetable_cell_text {{ session.title }}

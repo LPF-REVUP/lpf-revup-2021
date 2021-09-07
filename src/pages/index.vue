@@ -23,10 +23,12 @@
       v-container.py-0
         v-layout(justify-center)
           div
-            | 2021.08.17 ティザーサイト公開しました。
+            | 2021.09.07 セッション申し込み受付開始。
+            br
+            | 2021.09.07 公式サイトオープン！
     .pt-16.promotion-moview
       iframe.deck_frame.viewer_size(
-        src="https://www.youtube.com/embed/rfYUz_ZUcjc?autoplay=1&mute=1"
+        src="https://www.youtube.com/embed/TmVcKYFz6Tc?autoplay=1&mute=1"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       )
@@ -79,57 +81,47 @@
           a(href="https://note.com/linedc/n/nb4131c648cd7" target="_blank")
             v-img(src="/revup2020.png")
       //- CfP
-      .v-row.section-header(id="cfp" cols="12")
-        div.mb-4
-          div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani セッション公募受付中
-        v-row.mb-6(cols="12")
-          v-col.mx-auto.body-2(cols="12" md="8")
-            v-row.py-2.about-list(cols="12")
-              v-col.font-weight-bold(cols="12" md="3")
-                | セッション応募
-              v-col(cols="12" md="9")
-                a(href="https://forms.gle/GE2THuuDeCUAzGCj7" target="_blank") こちらのリンクから応募フォームにアクセスいただけます
-      //- Speakers
-      //-v-row.section-header(id="speakers" cols="12")
-      //-  div.mb-4
-      //-    div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani SPEAKERS
-      //-    div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text 登壇者一覧
-      //-    div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text coming soon...
-      //-    speaker-list(
-      //-      :speakers="speakers"
-      //-    )
+      //- .v-row.section-header(id="cfp" cols="12")
+      //-   div.mb-4
+      //-     div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani セッション公募受付中
+      //-   v-row.mb-6(cols="12")
+      //-     v-col.mx-auto.body-2(cols="12" md="8")
+      //-       v-row.py-2.about-list(cols="12")
+      //-         v-col.font-weight-bold(cols="12" md="3")
+      //-           | セッション応募
+      //-         v-col(cols="12" md="9")
+      //-           a(href="https://forms.gle/GE2THuuDeCUAzGCj7" target="_blank") こちらのリンクから応募フォームにアクセスいただけます
       //- Time table
-      //-v-row.section-header(id="timetable" cols="12")
-      //-  div.mb-4
-      //-    div.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani TIME TABLE
-      //-    div.text-subtitle-2.text-md-subtitle-2.section-header-text タイムテーブル
-      //-    div.text-subtitle-2.text-md-subtitle-2.section-header-text coming soon...
-      //-  v-col(cols="12" lg="8" md="6")
-      //-    div.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani TIME TABLE
-      //-    div.text-subtitle-2.text-md-subtitle-2.section-header-text タイムテーブル
-      //-    p.mt-8
-      //-      | セッションは東京、関西、九州の3トラック同時開催で行われます。
-      //-      br
-      //-      | セッションへの参加登録はConnpassを利用しますので、視聴されたいセッションへの参加登録をお願いいたします。開始時刻前に配信URLをメールにてお知らせいたします。同時刻、複数セッションへの申込みも可能ですので、少しでも興味のあるセッションには参加登録をしておくことをおすすめいたします。
-      //-      ul.session-list.mt-4
-      //-        li.case-study.mb-1 事例/APIセッション
-      //-        li.tech-session.mb-1 テクニカルセッション
-      //-        li.line-session.mb-1 LINE社によるセッション
-      //-  v-col(cols="12" lg="4" md="6")
-      //-    v-img(src="/timetable__map.svg")
-      //-    div
-      //-      timetable(
-      //-        :sessions="sessions"
-      //-      )
+      v-row.section-header(id="timetable" cols="12")
+        v-col(cols="12" lg="12" md="12")
+          div.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani TIME TABLE
+          div.text-subtitle-2.text-md-subtitle-2.section-header-text タイムテーブル
+          p.mt-8
+            | セッションへの参加登録はConnpassを利用しますので、視聴されたいセッションへの参加登録をお願いいたします。開始時刻前に配信URLをメールにてお知らせいたします。同時刻、複数セッションへの申込みも可能ですので、少しでも興味のあるセッションには参加登録をしておくことをおすすめいたします。
+            //- ul.session-list.mt-4
+            //-   li.case-study.mb-1 事例/APIセッション
+            //-   li.tech-session.mb-1 テクニカルセッション
+            //-   li.line-session.mb-1 LINE社によるセッション
+          div
+            timetable(
+              :sessions="sessions"
+            )
+      //- Speakers
+      v-row.section-header(id="speakers" cols="12")
+        div.mb-4
+          div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani SPEAKERS
+          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text 登壇者一覧
+          speaker-list(
+            :speakers="speakers"
+          )
       //- Sponsors
-      //-v-row.section-header(id="sponsors" cols="12")
-      //-  div
-      //-    div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani SPONSORS
-      //-    div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text スポンサー
-      //-    sponsor-List(
-      //-      :sponsors="sponsors"
-      //-    )
-      //-    div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text and more
+      v-row.section-header(id="sponsors" cols="12")
+        div
+          div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani SPONSORS
+          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text スポンサー
+          sponsor-List(
+            :sponsors="sponsors"
+          )
     //- SHARE
     share-box(
       :shareUrl="url"

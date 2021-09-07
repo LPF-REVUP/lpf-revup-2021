@@ -35,6 +35,7 @@
               | {{ applicantsMessage }}
           v-row.ma-0.mt-4
             v-btn(
+              v-if="session.applicationPage"
               color="accent"
               link
               :href="session.applicationPage"
@@ -42,6 +43,10 @@
               @click="gaEvent()"
             )
               | このセッションに申し込む
+            span.mr-4.session_non_url_text(
+              v-if="!session.applicationPage"
+            )
+              | ※ 申込ページ準備中です。まもなく申し込み開始される予定です。
       v-col.session_header()
     v-row.mb-6(
       no-gutters
@@ -289,6 +294,8 @@ export default class EventSessionPage extends mixins(
   background-color #00B900
 .session_header_text
   color #FFFFFF
+.session_non_url_text
+  color #dc143c
 .deck_frame
   border: 0px
   background: padding-box rgba(0, 0, 0, 0.1)
