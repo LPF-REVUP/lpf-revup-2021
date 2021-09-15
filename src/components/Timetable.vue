@@ -82,7 +82,7 @@ export default class TimetableComponent extends Vue {
       case 'md':
         return 355
       default:
-        return 260
+        return 280
     }
   }
 

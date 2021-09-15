@@ -23,6 +23,11 @@
       v-container.py-0
         v-layout(justify-center)
           div
+            | 2021.09.15
+            |
+            a(href="https://twitter.com/linedc_jp/status/1438011404666036226" target="_blank") Twitterキャンペーン
+            | 実施中です！
+            br
             | 2021.09.07 セッション申し込み受付開始。
             br
             | 2021.09.07 公式サイトオープン！
