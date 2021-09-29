@@ -111,6 +111,20 @@
             timetable(
               :sessions="sessions"
             )
+      //- Ask The Speaker
+      v-row.section-header(id="ask" cols="12")
+        div.mb-4
+          div.ml-2.text-h6.text-md-h3.font-weight-black.section-header-text.text-left.font-biryani Ask The Speaker Room
+          div.ml-2.text-subtitle-2.text-md-subtitle-2.section-header-text 登壇者への質問、コミュニケーションが行える部屋
+          p.mt-8
+            | 登壇者はセッション後、30分この部屋に待機しております。質問などある視聴者の方はお気軽に下記のZoom URLにお入りください。
+        v-row.pb-14.mb-6(cols="12")
+          v-col.mx-auto.body-2(cols="12" md="8")
+            v-row.py-2.about-list(cols="12")
+              v-col.font-weight-bold(cols="12" md="3")
+                | Zoom URL
+              v-col(cols="12" md="9")
+                a(href="https://us02web.zoom.us/j/82516975307?pwd=QkgyT0l3YWthVjBzMTBWcDgvWnZFZz09" target="_blank") Ask The Speaker & 雑談部屋
       //- Speakers
       v-row.section-header(id="speakers" cols="12")
         div.mb-4
