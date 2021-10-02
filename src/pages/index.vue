@@ -122,7 +122,7 @@
           v-col.mx-auto.body-2(cols="12" md="8")
             v-row.py-2.about-list(cols="12")
               v-col.font-weight-bold(cols="12" md="3")
-                | Zoom URL
+                | Zoom URL（14:00開始)
               v-col(cols="12" md="9")
                 a(href="https://us02web.zoom.us/j/82516975307?pwd=QkgyT0l3YWthVjBzMTBWcDgvWnZFZz09" target="_blank") Ask The Speaker & 雑談部屋
       //- Speakers
