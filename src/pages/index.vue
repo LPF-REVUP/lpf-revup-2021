@@ -23,6 +23,10 @@
       v-container.py-0
         v-layout(justify-center)
           div
+            | 2021.10.04
+            |
+            a(href="https://twitter.com/linedc_jp/status/1444901782849609729?s=20" target="_blank") REV UP 2021のグラレコ公開🎉
+            br
             | 2021.09.15
             |
             a(href="https://twitter.com/linedc_jp/status/1438011404666036226" target="_blank") Twitterキャンペーン
