@@ -23,9 +23,15 @@
       v-container.py-0
         v-layout(justify-center)
           div
+            | 2021.10.12
+            |
+            a(href="https://www.youtube.com/watch?v=bOdEcLqcM0M&list=PLFA0577mKojXEhjtJXj4Ybd0pRVoX9T8O" target="_blank") アーカイブ動画公開
+            | ❗️
+            br
             | 2021.10.04
             |
-            a(href="https://twitter.com/linedc_jp/status/1444901782849609729?s=20" target="_blank") REV UP 2021のグラレコ公開🎉
+            a(href="https://twitter.com/linedc_jp/status/1444901782849609729?s=20" target="_blank") グラレコ公開
+            |  🎉
             br
             | 2021.09.15
             |
