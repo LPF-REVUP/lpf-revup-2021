@@ -23,9 +23,15 @@
       v-container.py-0
         v-layout(justify-center)
           div
+            | 2021.10.12
+            |
+            a(href="https://www.youtube.com/watch?v=bOdEcLqcM0M&list=PLFA0577mKojXEhjtJXj4Ybd0pRVoX9T8O" target="_blank") アーカイブ動画公開
+            | ❗️
+            br
             | 2021.10.04
             |
-            a(href="https://twitter.com/linedc_jp/status/1444901782849609729?s=20" target="_blank") REV UP 2021のグラレコ公開🎉
+            a(href="https://twitter.com/linedc_jp/status/1444901782849609729?s=20" target="_blank") グラレコ公開
+            |  🎉
             br
             | 2021.09.15
             |
@@ -128,7 +134,7 @@
               v-col.font-weight-bold(cols="12" md="3")
                 | Zoom URL（14:00開始)
               v-col(cols="12" md="9")
-                a(href="https://us02web.zoom.us/j/82516975307?pwd=QkgyT0l3YWthVjBzMTBWcDgvWnZFZz09" target="_blank") Ask The Speaker & 雑談部屋
+                | 終了いたしました、ご参加ありがとうございました。
       //- Speakers
       v-row.section-header(id="speakers" cols="12")
         div.mb-4
